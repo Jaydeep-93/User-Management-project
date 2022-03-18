@@ -14,10 +14,10 @@ function App() {
   }
 
   return (
-    <div>
+    <>
       <AddUser saveUserData={addUserToList} />
       <UsersList users={ users }/>
-    </div>
+    </>
   );
 }
 
